@@ -31,7 +31,8 @@ if(st.button("Submit")):
     
     height = input_height
     weight = input_weight
-
+    
+    height = height/100
     BMI = (weight / height**2)
     st.write(f"Your BMI is {BMI}")
 
