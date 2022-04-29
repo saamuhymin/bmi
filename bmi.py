@@ -27,14 +27,14 @@ input_weight = float(input_weight)
 
 if(st.button("Submit")):
     st.write("Your height is ", input_height)
-    st.write("Your weight is %.1f", input_weight)
+    st.write("Your weight is " input_height.format(round(a , 2)))
 
     if(st.button("Calculate your BMI")):
     
         height = input_height
         weight = input_weight
 
-        BMI = (height / weight * weight)
+        BMI = (height / weight**2)
         st.write("Your BMI is ", BMI)
 
         if BMI <= 18.5:
