@@ -26,7 +26,7 @@ input_height = int(input_height)
 input_weight = float(input_weight)
 
 if(st.button("Submit")):
-    st.write("Your height is ", input_height)
+    st.write("Your height is {input_height.})
     st.write(f"Your weight is {input_weight:.1f}")
 
     if(st.button("Calculate your BMI")):
