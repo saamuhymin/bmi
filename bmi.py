@@ -11,7 +11,7 @@ readme = st.checkbox("What is BMI?")
 if readme:
     
     a_string = "right"
-    width = 20
+    width = 50
     readme = a_string.rjust(width)
     
     st.write("""
