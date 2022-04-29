@@ -22,15 +22,17 @@ if readme:
 input_height = st.number_input("Write your height in centimeters (cm): ")
 input_weight = st.number_input("Write your weight in kilograms (kg): ")
 
-input_height = float(input_height)
+input_height = int(input_height)
 input_weight = float(input_weight)
 
+if(st.button("Submit")):
+    st.write("Your height is ", input_height)
+    st.write("Your weight is ", input_weight)
+    
 height = input_height
 weight = input_weight
 
-print("Your height is %f while your weight is %f", height, weight)
-
-BMI = print(height / weight * weight)
+BMI = (height / weight * weight)
 print(BMI)
 
 if BMI <= 18.5:
