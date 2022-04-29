@@ -26,8 +26,8 @@ input_height = int(input_height)
 input_weight = float(input_weight)
 
 if(st.button("Submit")):
-    st.write(f"Your height is {input_height}")
-    st.write(f"Your weight is {input_weight:.1f}")
+    st.write(f"Your height is {input_height}cm or {input_height:.2f}m")
+    st.write(f"Your weight is {input_weight:.1f}kg")
     
     height = input_height
     weight = input_weight
