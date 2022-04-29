@@ -25,16 +25,19 @@ input_weight = st.number_input("Write your weight in kilograms (kg): ")
 input_height = float(input_height)
 input_weight = float(input_weight)
 
-print("Your height is %f while your weight is %f", input_height, input_weight)
+height = input_height
+weight = input_weight
 
-BMI = print(input_height / input_weight * input_weight)
+print("Your height is %f while your weight is %f", height, weight)
+
+BMI = print(height / weight * weight)
 print(BMI)
 
 if BMI <= 18.5:
     print("You are underweight.)
     
 elif BMI > 18.5 and BMI <= 24.9:
-    print("You have a stable or normal weight.")
+    print("You have a stable & normal weight.")
           
 elif BMI > 24.9 and BMI <= 29.9:
      print("You are overweight.")
