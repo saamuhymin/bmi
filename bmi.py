@@ -34,7 +34,7 @@ if(st.button("Submit")):
     
     height = height/100
     BMI = (weight / height**2)
-    st.write(f"Your BMI is {BMI}")
+    st.write(f"Your BMI is {BMI:.2f}")
 
     if BMI <= 18.5:
         st.write("You are underweight.")
