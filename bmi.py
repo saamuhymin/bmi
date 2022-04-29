@@ -27,10 +27,25 @@ input_weight = float(input_weight)
 
 print("Your height is %f while your weight is %f", input_height, input_weight)
 
-BMI = print(Height / Weight * Weight)
+BMI = print(input_height / input_weight * input_weight)
 print(BMI)
 
-if BMI:
+if BMI <= 18.5:
+    print("You are underweight.)
+    
+elif BMI > 18.5 and BMI <= 24.9:
+    print("You have a stable or normal weight.")
+          
+elif BMI > 24.9 and BMI <= 29.9:
+     print("You are overweight.")
+          
+else:
+     print("You are obese.")
+          
+      
+          
+          
+  
     
     
    
