@@ -16,7 +16,7 @@ if readme:
         """, unsafe_allow_html=True)
     
 a_string = "right"
-width = 10
+width = 20
  
 readme = a_string.rjust(width)
         
