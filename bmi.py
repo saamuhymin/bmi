@@ -28,25 +28,23 @@ input_weight = float(input_weight)
 if(st.button("Submit")):
     st.write(f"Your height is {input_height}")
     st.write(f"Your weight is {input_weight:.1f}")
-
-    if(st.button("Calculate your BMI")):
     
-     height = input_height
-     weight = input_weight
+    height = input_height
+    weight = input_weight
 
-     BMI = (height / weight**2)
-     st.write(f"Your BMI is {BMI}")
+    BMI = (height / weight**2)
+    st.write(f"Your BMI is {BMI}")
 
-     if BMI <= 18.5:
+    if BMI <= 18.5:
         st.write("You are underweight.")
     
-     elif BMI > 18.5 and BMI <= 24.9:
+    elif BMI > 18.5 and BMI <= 24.9:
         st.write("You have a stable & normal weight.")
           
-     elif BMI > 24.9 and BMI <= 29.9:
+    elif BMI > 24.9 and BMI <= 29.9:
         st.write("You are overweight.")
           
-     else:
+    else:
         st.write("You are obese.")
           
       
