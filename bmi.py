@@ -49,14 +49,14 @@ if(st.button("Submit")):
             st.write("Add more toppings for more calories but don't take too much sugar and fat.")
             st.write("Do all of these above and remember to exercise to help you to gain weight by building up muscles."
     
-    elif BMI > 18.5 and BMI <= 24.9:
+     elif BMI > 18.5 and BMI <= 24.9:
         st.success("You have a stable & normal weight.")
         
         if(st.button('What should I do?')):
             st.write("Just hang in there! Be consistent and dedicate to what you are doing now.")
                      
           
-    elif BMI > 24.9 and BMI <= 29.9:
+     elif BMI > 24.9 and BMI <= 29.9:
         st.warning("You are overweight.")
         
         if(st.button('What should I do?')):
@@ -64,7 +64,8 @@ if(st.button("Submit")):
             st.write("Exercise is a must. You gotta reduce and burn the foods you just ate.")
             st.write("Always check the calorie information to prevent daily excessive intake.")
           
-    else:
+     else:
+        
         st.error("You are obese.")
         
         if(st.button('What should I do?')):
