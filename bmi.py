@@ -42,7 +42,7 @@ if(st.button("Submit")):
     if BMI <= 18.5:
         st.info("You are underweight.")
         
-        if(st.button('What should I do?'))
+        if(st.button('What should I do?')):
             st.write("Don't be picky at whatever you eat. Simply just eat everything.")
             st.write("Just eat everything but don't be so dumb. You still have to include nutrient-rich foods. Bear that in mind.")
             st.write("Reduce drinking soda or sparkling water. Consume smoothies and shakes that contain calories and protein instead.")
@@ -52,14 +52,14 @@ if(st.button("Submit")):
     elif BMI > 18.5 and BMI <= 24.9:
         st.success("You have a stable & normal weight.")
         
-        if(st.button('What should I do?'))
+        if(st.button('What should I do?')):
             st.write("Just hang in there! Be consistent and dedicate to what you are doing now.")
                      
           
     elif BMI > 24.9 and BMI <= 29.9:
         st.warning("You are overweight.")
         
-        if(st.button('What should I do?'))
+        if(st.button('What should I do?')):
             st.write("A healthy diet. Basically, you should revise the food triangle chart. What should be eaten plenty, some and a few in terms of amount.")
             st.write("Exercise is a must. You gotta reduce and burn the foods you just ate.")
             st.write("Always check the calorie information to prevent daily excessive intake.")
@@ -67,7 +67,7 @@ if(st.button("Submit")):
     else:
         st.error("You are obese.")
         
-        if(st.button('What should I do?'))
+        if(st.button('What should I do?')):
             st.write("A healthy diet. Basically, you should revise the food triangle chart. What should be eaten plenty, some and a few in terms of amount.")
             st.write("Exercise is a must. You gotta reduce and burn the excessive fat.")
             st.write("Get a professional trainer and dietitian to guide you effectively.")
