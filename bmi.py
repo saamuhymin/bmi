@@ -49,8 +49,7 @@ if(st.button("Submit")):
         st.write("Add more toppings for more calories but don't take too much sugar and fat.")
         st.write("Do all of these above and remember to exercise to help you to gain weight by building up muscles."
         
-
-    
+                 
     elif BMI > 18.5 and BMI <= 24.9:
         st.success("You have a stable & normal weight.")
         
