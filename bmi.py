@@ -44,7 +44,7 @@ if(st.button("Submit")):
         result = "Nice"
         
         if st.button("Click me?"):
-            st.text(result)
+            st.write(result)
       
         
     
