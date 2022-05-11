@@ -43,7 +43,7 @@ if(st.button("Submit")):
         st.info("You are underweight.")
         
         if(st.button('What should I do?')):
-            st.text("Don't be picky at whatever you eat. Simply just eat everything.")
+            st.write("Don't be picky at whatever you eat. Simply just eat everything.")
             st.write("Just eat everything but don't be so dumb. You still have to include nutrient-rich foods. Bear that in mind.")
             st.write("Reduce drinking soda or sparkling water. Consume smoothies and shakes that contain calories and protein instead.")
             st.write("Add more toppings for more calories but don't take too much sugar and fat.")
