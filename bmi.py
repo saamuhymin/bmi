@@ -42,7 +42,7 @@ if(st.button("Submit")):
     if BMI <= 18.5:
         st.info("You are underweight.")
         
-        if(st.button("What should I do?")):
+        if st.button("What should I do?"):
             st.text("Don't be picky at whatever you are served. Simply just eat everything.")
             st.text("Just eat everything but don't be so dumb. You still have to include nutrient-rich foods. Bear that in mind.")
             st.text("Reduce drinking soda or sparkling water. Consume smoothies and shakes that contain calories and protein instead.")
