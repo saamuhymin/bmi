@@ -44,10 +44,7 @@ if(st.button("Submit")):
         
         if st.button("What should I do?"):
            st.text("Don't be picky at whatever you are served. Simply just eat everything.")
-           st.text("Just eat everything but don't be so dumb. You still have to include nutrient-rich foods. Bear that in mind.")
-           st.text("Reduce drinking soda or sparkling water. Consume smoothies and shakes that contain calories and protein instead.")
-           st.text("Add more toppings for more calories but don't take too much sugar and fat.")
-           st.text("Do all of these above and remember to exercise to help you to gain weight by building up muscles.")
+      
         
     
     
