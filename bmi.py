@@ -46,7 +46,7 @@ if(st.button("Submit")):
         if st.button("Advices"):
             st.write(result)
             
-    else
+    else:
         st.write("You are jebaited")
     
       
