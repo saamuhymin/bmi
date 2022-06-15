@@ -45,6 +45,8 @@ if(st.button("Submit")):
         if st.button("Advices"):
            result = st.write("Nice")
            print(result)
+        else:
+            pass
             
     else:
         st.write("You are jebaited")
