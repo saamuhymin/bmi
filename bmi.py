@@ -39,12 +39,16 @@ if(st.button("Submit")):
     BMI = (weight / height**2)
     st.write(f"Your BMI is {BMI:.2f}")
 
-    if BMI <= 18.5:
+    if BMI < 25:
         st.info("You are underweight.")
         result = "Nice"
         
-        if st.button("Click me?"):
+        if st.button("Advices"):
             st.write(result)
+            
+    else
+        st.write("You are jebaited")
+    
       
         
     
